@@ -1,0 +1,71 @@
+body {
+  background: #fad9e8;
+  margin: 0;
+  font-family: "Indie Flower", Geneva, Verdana, sans-serif;
+}
+
+h1,
+p {
+  text-align: center;
+  font-family: "Indie Flower", Geneva, Verdana, sans-serif;
+}
+
+.macaron-photo {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link,
+a:visited,
+a:focus {
+  background: rgb(231, 106, 248);
+}
+
+a:hover {
+  background: rgb(236, 158, 246);
+}
+
+a:active {
+  background: rgb(84, 56, 87);
+  color: white;
+}
+a.mail {
+  background: none;
+  outline: none;
+  text-decoration: none;
+}
